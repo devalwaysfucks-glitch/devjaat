@@ -10,7 +10,7 @@ import logging
 import re
 import random
 from telegram.request import HTTPXRequest
-
+from keep_alive import keep_alive
 from telegram.error import Conflict as TelegramConflict
 
 try:
